@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="h-full bg-gradient-to-r from-lime-50 to-cyan-500">
+    <div class="flex justify-center items-center h-screen w-screen">
+      <div
+        class="grid grid-cols-4 grid-row-7 gap-2 shadow-xl place-content-center w-96 px-8 py-16 place-items-center border-cyan-200 bg-gradient-to-r from-cyan-200 to-lime-100 rounded-lg border-2"
+      >
+        <span
+          class="result bg-white rounded-full col-span-4 w-full h-12 px-4 py-2 shadow"
+          >fghu
+        </span>
+
+        <button class="buttonClear buttonNumber w-20">C</button>
+        <button class="buttonSymbol buttonNumber w-20">()</button>
+        <button class="buttonSymbol buttonNumber w-20">%</button>
+        <button class="buttonSymbol buttonNumber w-20">/</button>
+
+        <button class="buttonNumber w-20">1</button>
+        <button class="buttonNumber w-20">2</button>
+        <button class="buttonNumber w-20">3</button>
+        <button class="buttonSymbol buttonNumber w-20">*</button>
+
+        <button class="buttonNumber w-20">4</button>
+        <button class="buttonNumber w-20">5</button>
+        <button class="buttonNumber w-20">6</button>
+        <button class="buttonSymbol buttonNumber w-20">-</button>
+
+        <button class="buttonNumber w-20">7</button>
+        <button class="buttonNumber w-20">8</button>
+        <button class="buttonNumber w-20">9</button>
+        <button class="buttonSymbol buttonNumber w-20">+</button>
+
+        <div class="flex w-full justify-center">
+          <div class="flex ps-60 space-x-2">
+            <button class="buttonSymbol buttonNumber w-20">+/-</button>
+            <button class="buttonNumber w-20">0</button>
+            <button class="buttonSymbol buttonNumber w-20">,</button>
+          </div>
+        </div>
+        <button class="getResult buttonNumber col-span-4 w-2/3">=</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
